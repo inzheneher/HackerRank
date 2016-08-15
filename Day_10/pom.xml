@@ -2,19 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>hackerrank</artifactId>
+        <groupId>com.mav</groupId>
+        <version>1.0</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mav</groupId>
-    <artifactId>hackerrank</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0</version>
-    <modules>
-        <module>Day_6</module>
-        <module>Day_7</module>
-        <module>Day_8</module>
-        <module>Day_9</module>
-        <module>Day_10</module>
-    </modules>
+    <artifactId>Day_10</artifactId>
 
 
 </project>
