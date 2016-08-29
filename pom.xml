@@ -33,6 +33,8 @@
         <module>TreeTest</module>
         <module>Day_25</module>
         <module>Day_26</module>
+        <module>Day_28</module>
+        <module>User</module>
     </modules>
 
 
