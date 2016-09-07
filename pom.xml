@@ -37,6 +37,7 @@
         <module>User</module>
         <module>Day_29</module>
         <module>JavaDateAndTime</module>
+        <module>JavaAnagrams</module>
     </modules>
 
 
