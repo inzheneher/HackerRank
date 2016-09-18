@@ -39,6 +39,7 @@
         <module>JavaDateAndTime</module>
         <module>JavaAnagrams</module>
         <module>JavaStringTokens</module>
+        <module>PatternSyntaxChecker</module>
     </modules>
 
 
