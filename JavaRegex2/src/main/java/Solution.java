@@ -11,7 +11,7 @@ public class Solution {
 
         Scanner in = new Scanner(System.in);
         int testCases = Integer.parseInt(in.nextLine());
-        while(testCases>0){
+        while (testCases > 0) {
             String input = in.nextLine();
             Matcher m = r.matcher(input);
             boolean findMatch = true;
