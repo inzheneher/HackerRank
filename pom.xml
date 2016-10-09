@@ -41,6 +41,7 @@
         <module>JavaStringTokens</module>
         <module>PatternSyntaxChecker</module>
         <module>JavaRegex</module>
+        <module>JavaRegex2</module>
     </modules>
 
 
