@@ -44,6 +44,8 @@
         <module>JavaRegex2</module>
         <module>JavaSubstring</module>
         <module>JavaRegex3</module>
+        <module>TagContentExtractor</module>
+        <module>JavaCurrencyFormatter</module>
     </modules>
 
 
