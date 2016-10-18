@@ -46,6 +46,7 @@
         <module>JavaRegex3</module>
         <module>TagContentExtractor</module>
         <module>JavaCurrencyFormatter</module>
+        <module>Java1DArray</module>
     </modules>
 
 
