@@ -49,6 +49,7 @@
         <module>Java1DArray</module>
         <module>JavaList</module>
         <module>JavaInterface</module>
+        <module>JavaMap</module>
     </modules>
 
 
