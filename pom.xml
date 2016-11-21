@@ -50,6 +50,7 @@
         <module>JavaList</module>
         <module>JavaInterface</module>
         <module>JavaMap</module>
+        <module>JavaHashset</module>
     </modules>
 
 
