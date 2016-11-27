@@ -51,6 +51,9 @@
         <module>JavaInterface</module>
         <module>JavaMap</module>
         <module>JavaHashset</module>
+        <module>JavaStack</module>
+        <module>JavaGenerics</module>
+        <module>JavaSort</module>
     </modules>
 
 
