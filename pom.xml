@@ -54,6 +54,7 @@
         <module>JavaStack</module>
         <module>JavaGenerics</module>
         <module>JavaSort</module>
+        <module>JavaComparator</module>
     </modules>
 
 
