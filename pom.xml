@@ -53,5 +53,6 @@
         <module>JavaSort</module>
         <module>JavaComparator</module>
         <module>Picking Numbers</module>
+        <module>Anagrams</module>
     </modules>
 </project>
