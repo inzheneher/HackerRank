@@ -1,5 +1,5 @@
 import java.io.*;
-import java.util.Scanner;
+import java.util.*;
 
 public class Solution {
 
@@ -9,10 +9,24 @@ public class Solution {
         long max = 0;
         long[] row = new long[n];
 
-        for (int[] query : queries) {
-            for (int i1 = query[0] - 1; i1 < query[1]; i1++) {
-                row[i1] = row[i1] + query[2];
-                if (row[i1] > max) max = row[i1];
+        List<Long> longList = new ArrayList<>(n);
+        for (int i = 0; i < n; i++) {
+            longList.add(0L);
+        }
+
+        List<List<Integer>> arraysList2D = new ArrayList<>();
+        for (int[] ints : queries) {
+            List<Integer> eachRecord = new ArrayList<>();
+            for (int anInt : ints) {
+                eachRecord.add(anInt);
+            }
+            arraysList2D.add(eachRecord);
+        }
+
+        for (List<Integer> integers : arraysList2D) {
+            for (int i = integers.get(0) - 1; i < integers.get(1); i++) {
+                longList.set(i, longList.get(i) + integers.get(2));
+                if (longList.get(i) > max) max = longList.get(i);
             }
         }
         return max;
