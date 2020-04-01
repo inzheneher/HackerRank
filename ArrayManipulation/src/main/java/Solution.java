@@ -9,7 +9,6 @@ public class Solution {
         long max = 0;
         long[] row = new long[n];
 
-
         for (int[] query : queries) {
             for (int i1 = query[0] - 1; i1 < query[1]; i1++) {
                 row[i1] = row[i1] + query[2];
@@ -23,7 +22,7 @@ public class Solution {
 
     static {
         try {
-            scanner = new Scanner(new File("/home/inzheneher/WORK/TEST/HackerRank/ArrayManipulation/src/main/resources/input04.txt"));
+            scanner = new Scanner(new File("/home/inzheneher/WORK/TEST/HackerRank/ArrayManipulation/src/main/resources/input07.txt"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
